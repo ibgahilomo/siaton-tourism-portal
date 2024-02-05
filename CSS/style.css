@@ -1,0 +1,520 @@
+/* --------------------BODY SECTION-------------------- */
+
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: Arial;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+body div {
+    background-color: rgb(11, 96, 176);
+}
+
+/* --------------------HEADER SECTION-------------------- */
+
+header {
+    padding: 12px 0px 0px 0px;;
+    display: block;
+    background-color: rgb(0, 0, 0);
+    margin: auto;
+}
+header img {
+    width: 150px;
+    padding: 0%;
+    padding-left: 40px;
+}
+header h1 {
+    font-family: Georgia;
+    font-style: normal;
+    font-size: 60px;
+    text-align: right;
+    color: rgb(240, 237, 207);
+    margin: auto;
+    float: right;
+    padding: 50px;
+}
+header nav ul {
+    background-color: rgb(11, 96, 176);
+    padding: 0%;
+}
+header nav ul > li {
+    display: inline-block;
+}
+header nav li {
+    /* color: rgb(240, 237, 207); */
+    padding: 30px 74px 30px 74px;
+}
+header nav li a {
+    text-align: justify;
+    font-size: 15px;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: rgb(240, 237, 207);
+}
+header nav li:hover {
+    background-color: rgb(1, 68, 131);
+    font-weight: bold;
+}
+header nav li.active {
+    background-color: rgb(1, 68, 131);
+    border-radius: rgb(0, 51, 99);
+}
+header nav img {
+    float: 100%;
+    margin: -10px 5px 0px 5px;
+}
+
+/* --------------------HOME SECTION-------------------- */
+
+.town_banner {
+    width: 100%;
+    margin: -17px 0px -15px 0px;
+}
+#banner_content p {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    color: rgb(240, 237, 207);
+    font-family: Georgia;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 1.7;
+    margin: 350px 11.5% 0px 0%;
+    align-content: center;
+}
+.home_art1 h2 {
+    font-family: Georgia;
+    margin-bottom: -5px;
+}
+.home_art1 {
+    color: rgb(240, 237, 207);
+    padding-right: 30%;
+    margin: 50px 0px 0px 50px;
+    font-size: 20px;
+    font-family: Georgia;
+}
+.home_art1 p {
+    line-height: 1.6;
+    margin-top: -5px;
+}
+.home_aside {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    color: rgb(240, 237, 207);
+    line-height: 2.0;
+    margin: 80px;
+    margin-top: 1290px;
+    align-content: center;
+}
+.home_aside img {
+    width: 250px;
+    margin-right: -20px;
+    border-radius: 8px;
+    transition: .2s;
+}
+.home_aside img:hover {
+    transform: scale(1.3);
+}
+.home_art2 h2 {
+    margin-bottom: -5px;
+}
+.home_art2 {
+    font-family: Georgia;
+    font-size: 20px;
+    color: rgb(240, 237, 207);
+    padding-right: 30%;
+    margin: 35px 0px 40px 50px;
+}
+.home_art2 p {
+    line-height: 1.6;
+    margin-top: -5px;
+}
+.brgy h2 {
+    text-align: center;
+    margin-bottom: -5px;
+}
+.brgy {
+    color: rgb(240, 237, 207);
+    background-color: rgb(0, 0, 0); 
+    font-family: Georgia;
+    padding: 10px 40px 10px 40px;
+    border: 0px;
+    margin: 0% 12% 40px 12%;
+}
+.brgy ul {
+    font-size: 20px;
+    line-height: 2.0;
+}
+.list1 {
+    display: inline-block;
+}
+.list2 {
+    display: inline-block;
+}
+.list3 {
+    display: inline-block;
+}
+.list4 {
+    display: inline-block;
+}
+.list5 {
+    display: inline-block;
+}
+.list6 {
+    display: inline-block;
+}
+.home_art3 h2 {
+    margin-bottom: -5px;
+}
+.home_art3 {
+    color: rgb(240, 237, 207);
+    font-family: Georgia;
+    font-size: 20px;
+    margin: 0px 50px 0px 50px;
+}
+.home_art3 p{
+    line-height: 1.6;
+}
+
+/* --------------------DESTINATION SECTION-------------------- */
+
+.resort h2 {
+    color: rgb(240, 237, 207);
+    font-size: 40px;
+    font-family: Georgia;
+    text-align: center;
+}
+.resort img {
+    width: 350px;
+    border-radius: 16px;
+}
+.resort1 {
+    font-family: Georgia;
+    color: rgb(240, 237, 207);
+    background-color: rgb(0, 0, 0);
+    margin: 30px 50px 10px 50px;
+    padding: 10px 30px 30px 30px;
+    border-radius: 16px;
+    line-height: 1.5;
+}
+.resort1_img {
+    float: left;
+    margin: 0px 30px 50px 0px;
+}
+.resort1 h3 a {
+    color: rgb(240, 237, 207);
+    text-decoration: none;
+}
+.resort2 {
+    font-family: Georgia;
+    color: rgb(240, 237, 207);
+    background-color: rgb(0, 0, 0);
+    margin: 30px 50px 10px 50px;
+    padding: 10px 30px 325px 30px;
+    border-radius: 16px;
+    line-height: 1.5;
+}
+.resort2_img {
+    float: left;
+    margin: 0px 30px 50px 0px;
+}
+.resort2 h3 a {
+    color: rgb(240, 237, 207);
+    text-decoration: none;
+}
+.resort3 {
+    font-family: Georgia;
+    color: rgb(240, 237, 207);
+    background-color: rgb(0, 0, 0);
+    margin: 30px 50px 10px 50px;
+    padding: 10px 30px 70px 30px;
+    border-radius: 16px;
+    line-height: 1.5;
+}
+.resort3_img {
+    float: left;
+    margin: 0px 30px 50px 0px;
+}
+.resort3 h3 a {
+    color: rgb(240, 237, 207);
+    text-decoration: none;
+}
+.beach {
+    margin: -30px 0px 0px 0px;
+    font-family: Georgia;
+}
+.beach h2 {
+    color: rgb(240, 237, 207);
+    font-size: 40px;
+    text-align: center;
+}
+.beach img {
+    width: 350px;
+    border-radius: 16px;
+}
+.beach_1 {
+    color: rgb(240, 237, 207);
+    background-color: rgb(0, 0, 0);
+    margin: 30px 50px 10px 50px;
+    padding: 10px 30px 70px 30px;
+    border-radius: 16px;
+    line-height: 1.5;
+}
+.beach1_img {
+    float: left;
+    margin: 0px 30px 50px 0px;
+}
+.beach_1 h3 a {
+    color: rgb(240, 237, 207);
+    text-decoration: none;
+}
+.beach_2 {
+    color: rgb(240, 237, 207);
+    background-color: rgb(0, 0, 0);
+    margin: 30px 50px 30px 50px;
+    padding: 10px 30px 100px 30px;
+    border-radius: 16px;
+    line-height: 1.5;
+}
+.beach2_img {
+    float: left;
+    margin: 0px 30px 50px 0px;
+}
+.beach_2 h3 a {
+    color: rgb(240, 237, 207);
+    text-decoration: none;
+}
+
+/* --------------------ACCOMMODATION SECTION-------------------- */
+
+.hotels h2{
+    color: rgb(240, 237, 207);
+    font-size: 40px;
+    font-family: Georgia;
+    text-align: center;
+}
+.hotels img {
+    width: 350px;
+    border-radius: 16px;
+}
+.hotel1 {
+    font-family: Georgia;
+    color: rgb(240, 237, 207);
+    background-color: rgb(0, 0, 0);
+    margin: 30px 50px 10px 50px;
+    padding: 10px 30px 30px 30px;
+    border-radius: 16px;
+    line-height: 1.5;
+}
+.hotel1_img {
+    float: left;
+    margin: 0px 30px 50px 0px;
+}
+.hotel1 h3 a {
+    color: rgb(240, 237, 207);
+    text-decoration: none;
+}
+.hotel2 {
+    font-family: Georgia;
+    color: rgb(240, 237, 207);
+    background-color: rgb(0, 0, 0);
+    margin: 50px 50px 10px 50px;
+    padding: 10px 30px 30px 30px;
+    border-radius: 16px;
+    line-height: 1.5;
+}
+.hotel2_img {
+    float: left;
+    margin: 0px 30px 50px 0px;
+}
+.hotel2 h3 a {
+    color: rgb(240, 237, 207);
+    text-decoration: none;
+}
+.hotel3 {
+    font-family: Georgia;
+    color: rgb(240, 237, 207);
+    background-color: rgb(0, 0, 0);
+    margin: 50px 50px 30px 50px;
+    padding: 10px 30px 230px 30px;
+    border-radius: 16px;
+    line-height: 1.5;
+}
+.hotel3_img {
+    float: left;
+    margin: 0px 30px 50px 0px;
+}
+.hotel3 h3 a {
+    color: rgb(240, 237, 207);
+    text-decoration: none;
+}
+
+/* --------------------TRANSPORTATION-------------------- */
+
+.duma-siaton_map {
+    margin: 30px 0px 30px 70px;
+    border-radius: 8px;
+}
+.ceres_term_duma {
+    float: right;
+    width: 300px;
+    margin: -490px 80px 0px 10px;
+    border-radius: 8px;
+}
+.siaton_terminal {
+    float: right;
+    width: 300px;
+    margin: -280px 80px 0px 10px;
+    border-radius: 8px;
+}
+#bus_sched {
+    margin: 0px 14% 0% 14%;
+    color: rgb(240, 237, 207);
+    background-color: rgb(0, 0, 0);
+    font-family: Georgia;
+    font-size: 20px;
+    padding: 20px 40px 20px 50px;
+    border: 0px;
+    border-radius: 16px;
+}
+.duma-siaton {
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+}
+.duma-siaton ul {
+    list-style-type: square;
+    line-height: 2.0;
+}
+.siaton-duma {
+    display: inline-block;
+    background-color: rgb(0, 0, 0);
+    margin-left: 50px;
+}
+.siaton-duma ul {
+    list-style-type: square;
+    line-height: 2.0;
+}
+.fares {
+    background-color: rgb(0, 0, 0);
+    color: rgb(240, 237, 207);
+    margin: 30px 30% 5px 4%;
+    font-family: Georgia;
+    font-size: 20px;
+    line-height: 1.6;
+    padding: 15px 50px 20px 50px;
+    border: 0px;
+    border-radius: 16px;
+}
+.fares div {
+    background-color:rgb(0, 0, 0);
+}
+.trans_aside2 {
+    position: absolute;
+    top: 8px;
+    right: 16px;
+    color: rgb(240, 237, 207);
+    line-height: 2.0;
+    margin: 80px;
+    margin-top: 135%;
+    align-content: center;
+}
+.trans_aside2 img {
+    width: 300px;
+    margin-right: -25px;
+    border-radius: 16px;
+}
+.pedicab {
+    margin: 20px 0px 50px 50px;
+    width: 300px;
+    border-radius: 16px;
+    border: 0px;
+}
+.habal-habal {
+    float: right;
+    margin: -425px 50px -350px 50px;
+    width: 300px;
+    border-radius: 16px;
+    border: 0px;
+}
+.pot-pot {
+    float: right;
+    margin: -280px 470px 50px 50px;
+    width: 300px;
+    border-radius: 16px;
+    border: 0px;
+}
+
+/* --------------------ABOUT-------------------- */
+
+.about_aside {
+    position: absolute;
+    top: 8px;
+    right: 4px;
+    color: rgb(240, 237, 207);
+    line-height: 1.5;
+    margin-top: 360px;
+    margin-right: 110px;
+    align-content: center;
+}
+.about_aside p a h3 {
+    font-family: Georgia;
+    font-weight: lighter;
+    text-align: center;
+}
+.about_aside h3 {
+    font-family: Georgia;
+}
+.about_aside img {
+    width: 200px;
+    transition: .2s;
+    border-radius: 8px
+}
+.about_aside img:hover {
+    transform: scale(1.2);
+}
+.about_art {
+    color: rgb(240, 237, 207);
+    padding-right: 30%;
+    margin-left: 50px;
+    margin-top: 40px;
+    font-size: 20px;
+    font-family: Georgia;
+}
+.about_art p {
+    line-height: 1.6;
+    margin-top: -5px; 
+}
+.about_div {
+    color: rgb(240, 237, 207);
+    background-color: rgb(0, 0, 0);
+    border: 0px;
+    padding: 10px 50px 15px 50px;
+    margin: 50px 15% 40px 15%;
+    font-size: 20px;
+    font-family: Georgia;
+}
+.about_div img {
+    float: right;
+    width: 350px;
+    padding-top: 65px;
+    padding-right: 10px;
+}
+.about_div p {
+    line-height: 1.6;
+    margin-top: -5px;
+}
+
+/* --------------------FOOTER SECTION-------------------- */
+
+footer {
+    color: rgb(240, 237, 207);
+    text-align: center;
+    padding: 30px;
+    display: block;
+    background-color: rgb(64, 162, 216);
+    margin: auto;
+}
+
+/* padding: top right bottom left */
